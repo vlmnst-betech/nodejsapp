@@ -4,11 +4,11 @@
   "description": "Es una app Hello World en nodejS",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "npm install inherits && mocha"
   },
   "engines": {
-    "node": "^14.8.0",
-    "test": "npm install inherits && mocha"
+    "node": "^14.8.0"
   },
   "dependencies": {
     "express": "^4.14.0",
